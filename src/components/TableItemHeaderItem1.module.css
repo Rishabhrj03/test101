@@ -1,0 +1,43 @@
+.tableHeader {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+}
+.sortIcon {
+  width: 8px;
+  position: relative;
+  height: 12px;
+}
+.wrapper {
+  flex: 1;
+  border-right: 0.5px solid var(--table-colorsplit);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--table-padding);
+  gap: var(--gap-5xs);
+}
+.header {
+  flex: 1;
+  background-color: var(--table-colorfillalter);
+  border-bottom: 1px solid var(--table-colorsplit);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--table-paddingcontentverticallg) 0px;
+}
+.tableItemHeaderItem {
+  flex: 1;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--pagination-colortext);
+  font-family: var(--heading-heading-3);
+}

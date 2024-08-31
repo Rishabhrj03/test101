@@ -1,0 +1,16 @@
+.checkbox {
+  width: 16px;
+}
+.tableItemHeaderControl {
+  height: 100%;
+  position: relative;
+  background-color: var(--table-colorfillalter);
+  border-bottom: 1px solid var(--table-colorsplit);
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--table-padding);
+}

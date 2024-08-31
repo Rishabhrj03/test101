@@ -1,0 +1,559 @@
+.enter {
+  position: relative;
+  display: flex;
+  min-width: 36;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.enter:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  text-align: left;
+  color: var(--color-lightgray-100);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 36;
+}
+.enterWrapper {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--background-default-default);
+  border: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-mid);
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  color: var(--color-lightgray-100);
+}
+.enterWrapper:hover {
+  background-color: var(--background-default-default);
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  border-radius: var(--br-8xs);
+  padding: var(--padding-7xs) var(--padding-mid);
+  box-sizing: border-box;
+  border: 1px solid var(--color-lightgray-200);
+  max-width: 100%;
+}
+.subject {
+  position: relative;
+  display: flex;
+  min-width: 53;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.subject:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  text-align: left;
+  color: var(--color-darkgray-300);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 53;
+}
+.reviewSubjectInput {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xs);
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.reviewSubjectInput:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: 0px var(--padding-12xs);
+  box-sizing: border-box;
+}
+.reviewSubject {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-5xs) var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+}
+.reviewSubject:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: 0px 0px var(--padding-5xs) var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.enterYourReview {
+  position: relative;
+  display: flex;
+  min-width: 123;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.enterYourReview:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  text-align: left;
+  color: var(--color-darkgray-300);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 123;
+}
+.description {
+  position: relative;
+  display: flex;
+  min-width: 79;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.description:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  text-align: left;
+  color: var(--color-lightgray-100);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 79;
+}
+.descriptionWrapper {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--background-default-default);
+  border: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-mid) var(--padding-50xl);
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  color: var(--color-lightgray-100);
+}
+.descriptionWrapper:hover {
+  background-color: var(--background-default-default);
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  border-radius: var(--br-8xs);
+  padding: var(--padding-7xs) var(--padding-mid) var(--padding-50xl);
+  box-sizing: border-box;
+  border: 1px solid var(--color-lightgray-200);
+  max-width: 100%;
+}
+.reviewSubject1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-4xs) var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+}
+.reviewSubject1:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: 0px 0px var(--padding-4xs) var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rating {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  min-width: 80;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.rating:hover {
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  font-size: var(--heading-heading-3-size);
+  text-align: left;
+  color: var(--color-black);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 80;
+}
+.faSolidstarIcon {
+  height: 39px;
+  width: 43.3px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 39;
+  display: flex;
+  gap: var(--gap-0);
+}
+.faSolidstarIcon:hover {
+  display: flex;
+  width: 43.3px;
+  height: 39px;
+  gap: var(--gap-0);
+  min-height: 39;
+}
+.starIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12.02px;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  transform: rotate(0deg);
+}
+.starIcons:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: 12.02px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.satisfied {
+  position: relative;
+  display: flex;
+  min-width: 60;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.satisfied:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  text-align: left;
+  color: var(--color-dimgray);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 60;
+}
+.satisfactionLevel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0px 0px;
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.satisfactionLevel:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: var(--padding-5xs) 0px 0px;
+  box-sizing: border-box;
+}
+.starContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  height: auto;
+  transform: rotate(0deg);
+}
+.starContainer:hover {
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  align-items: flex-start;
+  justify-content: space-between;
+  transform: rotate(0deg);
+  max-width: 100%;
+}
+.ratingStars {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+}
+.ratingStars:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: 0px 0px 0px var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ratingParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+  font-size: var(--heading-heading-3-size);
+  color: var(--color-black);
+}
+.ratingParent:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: 0px 0px var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.save {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  min-width: 38;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.save:hover {
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-mini);
+  text-align: left;
+  color: var(--background-default-default);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 38;
+}
+.saveWrapper {
+  border-radius: var(--br-8xs);
+  background: linear-gradient(136.93deg, #d100f3, #002bc5);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-12xl);
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  cursor: pointer;
+}
+.saveWrapper:hover {
+  background: linear-gradient(136.93deg, #d100f3, #002bc5);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: var(--br-8xs);
+  padding: var(--padding-6xs) var(--padding-12xl);
+  box-sizing: border-box;
+}
+.submitButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-3xl) 0px var(--padding-xl);
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  font-size: var(--font-size-mini);
+  color: var(--background-default-default);
+}
+.submitButton:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: center;
+  transform: rotate(0deg);
+  padding: 0px var(--padding-3xl) 0px var(--padding-xl);
+  box-sizing: border-box;
+}
+.reviewFormFields {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+  height: auto;
+  transform: rotate(0deg);
+}
+.reviewFormFields:hover {
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-lgi);
+  align-items: flex-end;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  max-width: 100%;
+}
+.reviewForm {
+  width: 485px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray-300);
+  font-family: var(--font-poppins);
+}
+.reviewForm:hover {
+  display: flex;
+  width: 485px;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-end;
+  transform: rotate(0deg);
+  padding: 0px var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+  .rating {
+    font-size: var(--font-size-lgi);
+  }
+
+  .starContainer {
+    flex-wrap: wrap;
+  }
+}

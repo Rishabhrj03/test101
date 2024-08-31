@@ -1,0 +1,51 @@
+.iconLeftoutlined {
+  width: 14px;
+  position: relative;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.paginationItemArrow {
+  width: var(--pagination-controlheight);
+  border-radius: var(--pagination-borderradius);
+  height: var(--pagination-controlheight);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px var(--padding-7xs);
+  box-sizing: border-box;
+}
+.b {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.paginationItemNumber {
+  width: var(--pagination-controlheight);
+  border-radius: var(--pagination-borderradius);
+  border: 1px solid var(--pagination-colorprimary);
+  box-sizing: border-box;
+  height: var(--pagination-controlheight);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px var(--padding-7xs);
+  color: var(--pagination-colorprimary);
+}
+.pagination {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--table-padding) 0px;
+  box-sizing: border-box;
+  gap: var(--pagination-marginxs);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--pagination-colortext);
+  font-family: var(--heading-heading-3);
+}

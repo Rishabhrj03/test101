@@ -1,0 +1,7 @@
+.select {
+  width: 100%;
+  position: relative;
+  font-family: var(--heading-heading-3);
+  font-size: var(--font-size-sm);
+  color: var(--pagination-colortext);
+}

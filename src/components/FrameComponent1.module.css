@@ -1,0 +1,152 @@
+.foundedOn01012016 {
+  position: relative;
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.foundedOn01012016:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-xs);
+  text-align: left;
+  color: var(--color-gray-200);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.foundedDate {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-xl);
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.foundedDate:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: 0px 0px 0px var(--padding-xl);
+  box-sizing: border-box;
+}
+.detailReview {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  min-width: 101;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.detailReview:hover {
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-mini);
+  text-align: left;
+  color: var(--background-default-default);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 101;
+}
+.detailReviewWrapper {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkslategray-400);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-3xl) var(--padding-6xs)
+    var(--padding-4xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  cursor: pointer;
+  z-index: 1;
+  font-size: var(--font-size-mini);
+  color: var(--background-default-default);
+}
+.detailReviewWrapper:hover {
+  background-color: var(--color-darkslategray-400);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: var(--br-8xs);
+  padding: var(--padding-6xs) var(--padding-3xl) var(--padding-6xs)
+    var(--padding-4xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.foundedReview {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  width: auto;
+  align-self: unset;
+  height: auto;
+  transform: rotate(0deg);
+}
+.foundedReview:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.foundedReviewWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px 0px;
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+}
+.foundedReviewWrapper:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: var(--padding-11xs) 0px 0px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,47 @@
+.breadcrumbLink {
+  position: relative;
+  line-height: 22px;
+}
+.breadcrumbItem {
+  border-radius: var(--breadcrumb-borderradiussm);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--breadcrumb-paddingxxs);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.breadcrumbSeparator {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--breadcrumb-marginxxs);
+}
+.breadcrumbItem2 {
+  border-radius: var(--breadcrumb-borderradiussm);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--breadcrumb-paddingxxs);
+  color: var(--pagination-colortext);
+}
+.breadcrumb {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--breadcrumb-colortextdescription);
+  font-family: var(--heading-heading-3);
+}

@@ -1,0 +1,515 @@
+.enter {
+  position: relative;
+  display: flex;
+  min-width: 44;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.enter:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  text-align: left;
+  color: var(--color-lightgray-100);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 44;
+}
+.locationDetails {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--background-default-default);
+  border: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-mid);
+  max-width: 100%;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.locationDetails:hover {
+  background-color: var(--background-default-default);
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  border-radius: var(--br-8xs);
+  padding: var(--padding-7xs) var(--padding-mid);
+  box-sizing: border-box;
+  border: 1px solid var(--color-lightgray-200);
+  max-width: 100%;
+}
+.locationDetailsWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xs) var(--padding-sm) 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.locationDetailsWrapper:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: 0px var(--padding-xs) var(--padding-sm) 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.location {
+  position: relative;
+  display: flex;
+  min-width: 60;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.location:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  text-align: left;
+  color: var(--color-darkgray-300);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 60;
+}
+.locationWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xs);
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  color: var(--color-darkgray-300);
+}
+.locationWrapper:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: 0px var(--padding-12xs);
+  box-sizing: border-box;
+}
+.selectLocation {
+  position: relative;
+  display: flex;
+  min-width: 106;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.selectLocation:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  text-align: left;
+  color: var(--color-lightgray-100);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 106;
+}
+.akarIconslocation {
+  width: 21px;
+  height: 21px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  gap: var(--gap-0);
+  z-index: 1;
+}
+.akarIconslocation:hover {
+  display: flex;
+  width: 21px;
+  height: 21px;
+  gap: var(--gap-0);
+}
+.akarIconslocationWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0px 0px;
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.akarIconslocationWrapper:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: var(--padding-12xs) 0px 0px;
+  box-sizing: border-box;
+}
+.selectLocationParent {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--background-default-default);
+  border: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-7xs) var(--padding-mini) var(--padding-8xs)
+    var(--padding-base);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  height: auto;
+  transform: rotate(0deg);
+}
+.selectLocationParent:hover {
+  background-color: var(--background-default-default);
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  align-items: flex-start;
+  justify-content: space-between;
+  transform: rotate(0deg);
+  border-radius: var(--br-8xs);
+  padding: var(--padding-7xs) var(--padding-mini) var(--padding-8xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  border: 1px solid var(--color-lightgray-200);
+  max-width: 100%;
+}
+.foundedOn {
+  position: relative;
+  display: flex;
+  min-width: 84;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.foundedOn:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  text-align: left;
+  color: var(--color-darkgray-300);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 84;
+}
+.ddmmyyyy {
+  position: relative;
+  display: flex;
+  min-width: 90;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.ddmmyyyy:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  text-align: left;
+  color: var(--color-lightgray-100);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 90;
+}
+.uiwdateIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  gap: var(--gap-0);
+  z-index: 1;
+}
+.uiwdateIcon:hover {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  gap: var(--gap-0);
+}
+.dateContainer {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--background-default-default);
+  border: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-7xs) var(--padding-mini) var(--padding-7xs)
+    var(--padding-base);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  height: auto;
+  transform: rotate(0deg);
+}
+.dateContainer:hover {
+  background-color: var(--background-default-default);
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  align-items: flex-start;
+  justify-content: space-between;
+  transform: rotate(0deg);
+  border-radius: var(--br-8xs);
+  padding: var(--padding-7xs) var(--padding-mini) var(--padding-7xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  border: 1px solid var(--color-lightgray-200);
+  max-width: 100%;
+}
+.dateContainerWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xs) var(--padding-5xs) 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.dateContainerWrapper:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: 0px var(--padding-xs) var(--padding-5xs) 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.city {
+  position: relative;
+  display: flex;
+  min-width: 28;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.city:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  text-align: left;
+  color: var(--color-darkgray-300);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 28;
+}
+.cityWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xs) var(--padding-20xl);
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  color: var(--color-darkgray-300);
+}
+.cityWrapper:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: 0px var(--padding-12xs) var(--padding-20xl);
+  box-sizing: border-box;
+}
+.frameChild {
+  width: 116px;
+  height: 116px;
+  position: absolute;
+  margin: 0 !important;
+  top: -4px;
+  left: -34px;
+  border-radius: 50%;
+  background: linear-gradient(136.93deg, #d100f3, #002bc5);
+  display: flex;
+}
+.frameChild:hover {
+  background: linear-gradient(136.93deg, #d100f3, #002bc5);
+  display: flex;
+  width: 116px;
+  height: 116px;
+}
+.save {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  min-width: 38;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.save:hover {
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-mini);
+  text-align: left;
+  color: var(--background-default-default);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 38;
+}
+.saveWrapper {
+  border-radius: var(--br-8xs);
+  background: linear-gradient(136.93deg, #d100f3, #002bc5);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-12xl);
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  cursor: pointer;
+}
+.saveWrapper:hover {
+  background: linear-gradient(136.93deg, #d100f3, #002bc5);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: var(--br-8xs);
+  padding: var(--padding-6xs) var(--padding-12xl);
+  box-sizing: border-box;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-11xl) 0px var(--padding-xl);
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  font-size: var(--font-size-mini);
+  color: var(--background-default-default);
+}
+.frameContainer:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: center;
+  transform: rotate(0deg);
+  padding: 0px var(--padding-11xl) 0px var(--padding-xl);
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 414px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--background-default-default);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-base) var(--padding-3xl) var(--padding-8xl);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  line-height: normal;
+  letter-spacing: normal;
+  height: auto;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightgray-100);
+  font-family: var(--font-poppins);
+}
+.frameParent:hover {
+  background-color: var(--background-default-default);
+  display: flex;
+  width: 414px;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: var(--br-6xl);
+  padding: 0px var(--padding-base) var(--padding-3xl) var(--padding-8xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}

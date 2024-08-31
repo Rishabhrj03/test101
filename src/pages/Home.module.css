@@ -1,0 +1,1244 @@
+.resultFound1 {
+  position: relative;
+  display: flex;
+  min-width: 94;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.resultFound1:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-smi);
+  text-align: left;
+  color: var(--color-darkgray-100);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 94;
+}
+.maskGroupIcon {
+  position: absolute;
+  width: 95px;
+  top: 2px;
+  right: 7.3px;
+  left: 3px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 95px;
+  object-fit: contain;
+  display: flex;
+  z-index: 1;
+}
+.maskGroupIcon:hover {
+  display: flex;
+  width: 95px;
+  height: 95px;
+}
+.cardContentChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 2;
+}
+.cardContentChild:hover {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.cardContent {
+  height: 100px;
+  width: 105.3px;
+  position: relative;
+  display: flex;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.cardContent:hover {
+  display: flex;
+  width: 105.3px;
+  height: 100px;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.graffersidWebAnd {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  max-width: 100%;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.graffersidWebAnd:hover {
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-xl);
+  text-align: left;
+  color: var(--color-black);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  max-width: 100%;
+}
+.akarIconslocation {
+  width: 13px;
+  height: 13px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  gap: var(--gap-0);
+  z-index: 1;
+}
+.akarIconslocation:hover {
+  display: flex;
+  width: 13px;
+  height: 13px;
+  gap: var(--gap-0);
+}
+.akarIconslocationWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0px 0px;
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.akarIconslocationWrapper:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: var(--padding-10xs) 0px 0px;
+  box-sizing: border-box;
+}
+.shekharCentralManorama {
+  position: relative;
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.shekharCentralManorama:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-smi);
+  text-align: left;
+  color: var(--color-gray-200);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-200);
+}
+.frameContainer:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-10xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.companyNameLocation {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+}
+.companyNameLocation:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  max-width: 100%;
+}
+.ratingCount {
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  min-width: 26;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.ratingCount:hover {
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  font-size: var(--single-line-body-base-size);
+  text-align: left;
+  color: var(--color-black);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 26;
+}
+.faSolidstarIcon {
+  width: 18px;
+  height: 16.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  gap: var(--gap-0);
+  z-index: 1;
+}
+.faSolidstarIcon:hover {
+  display: flex;
+  width: 18px;
+  height: 16.2px;
+  gap: var(--gap-0);
+}
+.starIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px 0px;
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.starIcons:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: var(--padding-11xs) 0px 0px;
+  box-sizing: border-box;
+}
+.ratingReviews {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-2);
+  width: auto;
+  align-self: unset;
+  height: auto;
+  transform: rotate(0deg);
+}
+.ratingReviews:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-7xs-2);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.reviews {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  min-width: 86;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.reviews:hover {
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--single-line-body-base-size);
+  text-align: left;
+  color: var(--color-black);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 86;
+}
+.ratingReviewsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  width: auto;
+  align-self: unset;
+  height: auto;
+  transform: rotate(0deg);
+  font-size: var(--single-line-body-base-size);
+}
+.ratingReviewsParent:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-mid);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.companyNameLocationParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+}
+.companyNameLocationParent:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-3xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  max-width: 100%;
+}
+.companyCardInner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px 0px;
+  box-sizing: border-box;
+  min-width: 317;
+  max-width: 100%;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.companyCardInner:hover {
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: var(--padding-11xs) 0px 0px;
+  box-sizing: border-box;
+  min-width: 317;
+  max-width: 100%;
+}
+.companyCard {
+  width: 615px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl-7);
+  max-width: 100%;
+  height: auto;
+  transform: rotate(0deg);
+}
+.companyCard:hover {
+  display: flex;
+  width: 615px;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-2xl-7);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  max-width: 100%;
+}
+.companyCardParent {
+  align-self: stretch;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-3xs);
+  background-color: var(--background-default-default);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-2xl) var(--padding-3xs) var(--padding-lgi)
+    var(--padding-lgi);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  width: auto;
+  height: auto;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.companyCardParent:hover {
+  background-color: var(--background-default-default);
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: var(--br-3xs);
+  padding: var(--padding-2xl) var(--padding-3xs) var(--padding-lgi)
+    var(--padding-lgi);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+}
+.resultFound1Parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+  font-size: var(--font-size-smi);
+  color: var(--color-darkgray-100);
+}
+.resultFound1Parent:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  max-width: 100%;
+}
+.ct {
+  margin: 0;
+  position: absolute;
+  top: 24px;
+  left: 6px;
+  font-size: inherit;
+  display: flex;
+  font-style: italic;
+  font-weight: 600;
+  font-family: inherit;
+  min-width: 90;
+  height: auto;
+  z-index: 3;
+}
+.ct:hover {
+  display: flex;
+  font-style: italic;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-17xl);
+  text-align: left;
+  color: var(--background-default-default);
+  height: auto;
+  min-width: 90;
+}
+.codeTechCompany {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.codeTechCompany:hover {
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-xl);
+  text-align: left;
+  color: var(--color-black);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.codeTechCompanyParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+}
+.codeTechCompanyParent:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.placeholderParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-2);
+  width: auto;
+  align-self: unset;
+  height: auto;
+  transform: rotate(0deg);
+  font-size: var(--single-line-body-base-size);
+}
+.placeholderParent:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-7xs-2);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.companyAddressRating {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+}
+.companyAddressRating:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-3xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.companyLocationDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px 0px;
+  box-sizing: border-box;
+  min-width: 217;
+  max-width: 100%;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.companyLocationDetails:hover {
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: var(--padding-11xs) 0px 0px;
+  box-sizing: border-box;
+  min-width: 217;
+  max-width: 100%;
+}
+.companyLogoName {
+  width: 461px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl-7);
+  max-width: 100%;
+  height: auto;
+  transform: rotate(0deg);
+}
+.companyLogoName:hover {
+  display: flex;
+  width: 461px;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-2xl-7);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  max-width: 100%;
+}
+.companyLogoNameParent {
+  align-self: stretch;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-3xs);
+  background-color: var(--background-default-default);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-2xl) var(--padding-2xl) var(--padding-lgi)
+    var(--padding-lgi);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  width: auto;
+  height: auto;
+  font-size: var(--font-size-17xl);
+  color: var(--background-default-default);
+}
+.companyLogoNameParent:hover {
+  background-color: var(--background-default-default);
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: var(--br-3xs);
+  padding: var(--padding-2xl) var(--padding-2xl) var(--padding-lgi)
+    var(--padding-lgi);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+}
+.frameItem {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: flex;
+  z-index: 2;
+}
+.frameItem:hover {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.maskGroupIcon2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  z-index: 1;
+}
+.maskGroupIcon2:hover {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.heroiconsSolidlightBulb {
+  position: absolute;
+  width: 78px;
+  top: 10px;
+  right: 6px;
+  left: 11px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 78px;
+  display: flex;
+  gap: var(--gap-0);
+  z-index: 3;
+}
+.heroiconsSolidlightBulb:hover {
+  display: flex;
+  width: 78px;
+  height: 78px;
+  gap: var(--gap-0);
+}
+.maskGroupGroup {
+  height: 95px;
+  width: 95px;
+  position: relative;
+  display: flex;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.maskGroupGroup:hover {
+  display: flex;
+  width: 95px;
+  height: 95px;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.frameParent1 {
+  width: 105.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-10xs) var(--padding-10xs);
+  box-sizing: border-box;
+  position: relative;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.frameParent1:hover {
+  display: flex;
+  width: 105.3px;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: var(--padding-11xs) var(--padding-10xs) var(--padding-10xs);
+  box-sizing: border-box;
+}
+.regDate01012016 {
+  position: relative;
+  white-space: pre-wrap;
+  display: flex;
+  min-width: 126;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.regDate01012016:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-xs);
+  text-align: left;
+  color: var(--color-gray-200);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 126;
+}
+.regDate01012016Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-xl);
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.regDate01012016Wrapper:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: 0px 0px 0px var(--padding-xl);
+  box-sizing: border-box;
+}
+.detailReview {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  min-width: 101;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 1;
+}
+.detailReview:hover {
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-mini);
+  text-align: left;
+  color: var(--background-default-default);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 101;
+}
+.detailReviewWrapper {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkslategray-400);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-3xl) var(--padding-6xs)
+    var(--padding-4xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  cursor: pointer;
+  z-index: 1;
+  font-size: var(--font-size-mini);
+  color: var(--background-default-default);
+}
+.detailReviewWrapper:hover {
+  background-color: var(--color-darkslategray-400);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: var(--br-8xs);
+  padding: var(--padding-6xs) var(--padding-3xl) var(--padding-6xs)
+    var(--padding-4xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.frameParent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  width: auto;
+  align-self: unset;
+  height: auto;
+  transform: rotate(0deg);
+}
+.frameParent4:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.frameWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px 0px;
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+}
+.frameWrapper2:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: var(--padding-11xs) 0px 0px;
+  box-sizing: border-box;
+}
+.groupDiv {
+  align-self: stretch;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-3xs);
+  background-color: var(--background-default-default);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-2xl) var(--padding-2xl) var(--padding-lgi)
+    var(--padding-lgi);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  width: auto;
+  height: auto;
+}
+.groupDiv:hover {
+  background-color: var(--background-default-default);
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: var(--br-3xs);
+  padding: var(--padding-2xl) var(--padding-2xl) var(--padding-lgi)
+    var(--padding-lgi);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+}
+.phphosphorLogoFillIcon {
+  position: absolute;
+  top: 16px;
+  left: 17px;
+  width: 66px;
+  height: 66px;
+  overflow: hidden;
+  display: flex;
+  gap: var(--gap-0);
+  z-index: 3;
+}
+.phphosphorLogoFillIcon:hover {
+  display: flex;
+  width: 66px;
+  height: 66px;
+  gap: var(--gap-0);
+}
+.frameParent9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  width: auto;
+  align-self: unset;
+  height: auto;
+  transform: rotate(0deg);
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-200);
+}
+.frameParent9:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-10xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.frameWrapper3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px 0px;
+  box-sizing: border-box;
+  min-width: 214;
+  max-width: 100%;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.frameWrapper3:hover {
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: var(--padding-11xs) 0px 0px;
+  box-sizing: border-box;
+  min-width: 214;
+  max-width: 100%;
+}
+.frameParent6 {
+  width: 456px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl-7);
+  max-width: 100%;
+  height: auto;
+  transform: rotate(0deg);
+}
+.frameParent6:hover {
+  display: flex;
+  width: 456px;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-2xl-7);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+  height: auto;
+  transform: rotate(0deg);
+}
+.frameGroup:hover {
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-6xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-46xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.frameWrapper:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: 0px var(--padding-46xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1194px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-68xl);
+  max-width: 100%;
+  height: auto;
+  transform: rotate(0deg);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.frameParent:hover {
+  display: flex;
+  width: 1194px;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-68xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  max-width: 100%;
+}
+.homeInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.homeInner:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: center;
+  transform: rotate(0deg);
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.home {
+  width: 1440px;
+  position: relative;
+  background-color: var(--background-default-default);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-42xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  line-height: normal;
+  letter-spacing: normal;
+  height: auto;
+}
+.home:hover {
+  background-color: var(--background-default-default);
+  display: flex;
+  width: 1440px;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-42xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1200px) {
+  .frameWrapper {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+
+  .frameParent {
+    gap: 43px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .companyCardParent {
+    flex-wrap: wrap;
+  }
+
+  .ct {
+    font-size: 29px;
+  }
+
+  .companyLogoNameParent {
+    flex-wrap: wrap;
+  }
+
+  .groupDiv {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .companyCard {
+    flex-wrap: wrap;
+  }
+
+  .companyLogoName {
+    flex-wrap: wrap;
+  }
+
+  .frameParent6 {
+    flex-wrap: wrap;
+  }
+
+  .frameParent {
+    gap: var(--gap-3xl);
+  }
+
+  .home {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .graffersidWebAnd {
+    font-size: var(--single-line-body-base-size);
+  }
+
+  .ratingReviewsParent {
+    flex-wrap: wrap;
+  }
+
+  .ct {
+    font-size: 22px;
+  }
+
+  .codeTechCompany {
+    font-size: var(--single-line-body-base-size);
+  }
+}

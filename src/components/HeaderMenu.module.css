@@ -1,0 +1,143 @@
+.iconMenuoutlined {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.clickArea {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--paddingxs);
+}
+.vectorIcon {
+  width: 126px;
+  position: relative;
+  height: 24px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.divider {
+  align-self: stretch;
+  width: 1px;
+  position: relative;
+  background-color: var(--coloritemtext);
+}
+.b {
+  position: relative;
+  line-height: 32px;
+}
+.logoAndSystemName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0px;
+  gap: var(--menu-margin);
+}
+.menuAndLogoAndSystemName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--marginxs);
+}
+.actions1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.divider1 {
+  width: 1px;
+  position: relative;
+  background-color: var(--coloritemtext);
+  height: 32px;
+}
+.a {
+  position: relative;
+  line-height: 20px;
+}
+.avatar {
+  width: var(--controlheightsm);
+  border-radius: 96px;
+  background-color: var(--orange-1);
+  height: var(--controlheightsm);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dropdown1 {
+  position: relative;
+  line-height: 22px;
+}
+.iconDownoutlined {
+  width: 14px;
+  position: relative;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dropdownBasicInline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--button-marginxs);
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--background-default-default);
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-3xs) 0px;
+  gap: var(--menu-margin);
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--orange-6);
+}
+.header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px var(--padding);
+}
+.headerDecoLine {
+  align-self: stretch;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+    linear-gradient(90deg, #9ac258, #45a2cd);
+  height: 4px;
+}
+.headerMenu {
+  width: 100%;
+  position: relative;
+  background-color: var(--menu-colorheadermenubg);
+  border-bottom: 1px solid var(--table-colorsplit);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--heading-heading-3-size);
+  color: var(--background-default-default);
+  font-family: var(--heading-heading-3);
+}

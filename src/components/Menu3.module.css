@@ -1,0 +1,359 @@
+.heading {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  display: flex;
+  height: auto;
+}
+.heading:hover {
+  font-weight: 600;
+  font-family: var(--single-line-body-base);
+  font-size: var(--single-line-body-base-size);
+  line-height: 140%;
+  text-align: left;
+  color: var(--text-default-default);
+  display: flex;
+  flex: 1;
+  height: auto;
+}
+.menuHeader {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--space-200) var(--space-400) var(--space-100);
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+}
+.menuHeader:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--space-200) var(--space-400) var(--space-100);
+  box-sizing: border-box;
+}
+.rule {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  background-color: var(--border-default-default);
+  display: flex;
+}
+.rule:hover {
+  background-color: var(--border-default-default);
+  display: flex;
+  flex: 1;
+  height: 1px;
+}
+.menuSeparator {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--space-200) var(--space-400);
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+}
+.menuSeparator:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--space-200) var(--space-400);
+  box-sizing: border-box;
+}
+.starIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+}
+.starIcon:hover {
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+.label {
+  width: 193px;
+  position: relative;
+  line-height: 140%;
+  display: flex;
+  height: auto;
+}
+.label:hover {
+  font-family: var(--single-line-body-base);
+  font-size: var(--single-line-body-base-size);
+  line-height: 140%;
+  text-align: left;
+  color: var(--text-default-default);
+  display: flex;
+  width: 193px;
+  height: auto;
+}
+.a {
+  position: relative;
+  line-height: 100%;
+  display: flex;
+  min-width: 28;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.a:hover {
+  font-family: var(--single-line-body-base);
+  font-size: var(--single-line-body-base-size);
+  line-height: 100%;
+  text-align: left;
+  color: var(--text-default-default);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  min-width: 28;
+}
+.menuShortcut {
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+}
+.menuShortcut:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: var(--br-5xs);
+}
+.row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: 20px;
+  width: auto;
+  height: auto;
+}
+.row:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+.description {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  color: var(--text-default-secondary);
+  display: flex;
+  width: auto;
+  height: auto;
+}
+.description:hover {
+  font-family: var(--single-line-body-base);
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  text-align: left;
+  color: var(--text-default-secondary);
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+}
+.body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--space-100);
+  height: auto;
+}
+.body:hover {
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: column;
+  gap: var(--space-100);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menuItem {
+  align-self: stretch;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--space-300) var(--space-400);
+  box-sizing: border-box;
+  gap: var(--space-300);
+  width: auto;
+  height: auto;
+}
+.menuItem:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--space-300);
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: var(--radius-md);
+  padding: var(--space-300) var(--space-400);
+  box-sizing: border-box;
+}
+.menuSection {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+  text-align: left;
+  font-size: var(--single-line-body-base-size);
+  color: var(--text-default-default);
+  font-family: var(--single-line-body-base);
+}
+.menuSection:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: var(--br-5xs);
+}
+.menuSeparator1 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-lg);
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+}
+.menuSeparator1:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: var(--br-5xs);
+  padding: var(--padding-sm) var(--padding-lg);
+  box-sizing: border-box;
+}
+.menuSection1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+  text-align: left;
+  font-size: var(--single-line-body-base-size);
+  color: var(--text-default-default);
+  font-family: var(--single-line-body-base);
+}
+.menuSection1:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu {
+  width: 301px;
+  position: relative;
+  box-shadow: var(--drop-shadow-300);
+  border-radius: var(--radius-200);
+  background-color: var(--background-default-default);
+  border: 1px solid var(--border-default-default);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-6xs);
+  line-height: normal;
+  letter-spacing: normal;
+  height: auto;
+  gap: var(--gap-0);
+  text-align: left;
+  font-size: var(--single-line-body-base-size);
+  color: var(--text-default-default);
+  font-family: var(--single-line-body-base);
+}
+.menu:hover {
+  background-color: var(--background-default-default);
+  display: flex;
+  width: 301px;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: var(--radius-200);
+  padding: var(--padding-7xs) var(--padding-6xs);
+  box-sizing: border-box;
+  border: 1px solid var(--border-default-default);
+  box-shadow: var(--drop-shadow-300);
+  line-height: normal;
+  letter-spacing: normal;
+}

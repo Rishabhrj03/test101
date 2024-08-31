@@ -1,0 +1,19 @@
+.tabTitle {
+  position: relative;
+  line-height: 22px;
+}
+.tabItemBasic {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid var(--pagination-colorprimary);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--tabs-paddingsm) 0px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--pagination-colorprimary);
+  font-family: var(--heading-heading-3);
+}
