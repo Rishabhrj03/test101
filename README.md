@@ -1,9 +1,14 @@
-# Test 1
+### Company Rating & Review
 
-Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+## Frontend
+cd frontend
+npm install
+npm start
 
-To preview and run the project on your device:
-
-1. Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-2. In the terminal, run `npm install`
-3. Run `npm start` to view project in browser
+## Backend
+cd backend
+npm install
+#.env
+PORT=4000
+MONGO_URL='your Mongo DB URL'
+npm start
