@@ -1,15 +1,15 @@
-Here's a professional version of the README file:
 Company Rating & Review Application
 
-This application allows users to rate and review companies. It consists of both frontend and backend components, which need to be set up and run separately.
+This repository contains the code for a Company Rating & Review application, which includes both frontend and backend components. Follow the steps below to set up and run the application locally.
 Prerequisites
 
-Before setting up the application, ensure you have the following installed:
+Before you begin, ensure you have the following installed:
 
-    Node.js (with npm)
+    Node.js (includes npm)
     MongoDB (or access to a MongoDB instance)
 
-Setting Up the Frontend
+Getting Started
+Frontend Setup
 
     Navigate to the frontend directory:
 
@@ -23,15 +23,15 @@ bash
 
 npm install
 
-Start the frontend server:
+Start the frontend development server:
 
 bash
 
     npm start
 
-    The frontend will typically be served on http://localhost:3000 by default.
+    By default, the frontend will be served on http://localhost:3000.
 
-Setting Up the Backend
+Backend Setup
 
     Navigate to the backend directory:
 
@@ -58,11 +58,6 @@ Start the backend server:
 
 bash
 
-    npm start
+npm start
 
-    The backend will typically run on http://localhost:4000 by default.
-
-Notes
-
-    Ensure that both the frontend and backend servers are running simultaneously for the application to function correctly.
-    The frontend will communicate with the backend via the specified PORT.
+By default, the backend server will run on http://localhost:4000.
