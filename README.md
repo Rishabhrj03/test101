@@ -1,4 +1,4 @@
-Company Rating & Review Application
+##Company Rating & Review Application
 
 This repository contains the code for a Company Rating & Review application. The project is divided into frontend and backend components, which need to be set up and run separately.
 Prerequisites
