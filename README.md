@@ -16,7 +16,8 @@ Before setting up the application, ensure you have the following installed:
     npm install
 # Start the frontend development server:
     npm start
-    The frontend server will typically run at http://localhost:3000.
+
+The frontend server will typically run at http://localhost:3000.
 
 ## Backend Setup
 # Navigate to the backend directory:
@@ -29,10 +30,11 @@ Create a .env file in the backend directory and add the following environment va
 
     PORT=4000
     MONGO_URL='your MongoDB URL'
-
-    Replace 'your MongoDB URL' with your actual MongoDB connection string.
+    
+Replace 'your MongoDB URL' with your actual MongoDB connection string.
 
 # Start the backend server:
-    npm start
-    The backend server will typically run at http://localhost:4000.
+    npm run dev
+
+The backend server will typically run at http://localhost:4000.
 
