@@ -1,9 +1,9 @@
 Company Rating & Review Application
 
-This repository contains the code for a Company Rating & Review application, which includes both frontend and backend components. Follow the steps below to set up and run the application locally.
+This repository contains the code for a Company Rating & Review application. The project is divided into frontend and backend components, which need to be set up and run separately.
 Prerequisites
 
-Before you begin, ensure you have the following installed:
+Before setting up the application, ensure you have the following installed:
 
     Node.js (includes npm)
     MongoDB (or access to a MongoDB instance)
@@ -17,7 +17,7 @@ Frontend Setup
 
 cd frontend
 
-Install the necessary dependencies:
+Install the dependencies:
 
 bash
 
@@ -29,7 +29,7 @@ bash
 
     npm start
 
-    By default, the frontend will be served on http://localhost:3000.
+    The frontend server will typically run at http://localhost:3000.
 
 Backend Setup
 
@@ -39,13 +39,15 @@ Backend Setup
 
 cd backend
 
-Install the required dependencies:
+Install the dependencies:
 
 bash
 
 npm install
 
-Create a .env file in the backend directory with the following environment variables:
+Configure environment variables:
+
+Create a .env file in the backend directory and add the following environment variables:
 
 bash
 
@@ -58,6 +60,7 @@ Start the backend server:
 
 bash
 
-npm start
+    npm start
 
-By default, the backend server will run on http://localhost:4000.
+    The backend server will typically run at http://localhost:4000.
+
