@@ -1,4 +1,4 @@
-## Company Rating & Review Application
+### Company Rating & Review Application
 
 This repository contains the code for a Company Rating & Review application. The project is divided into frontend and backend components, which need to be set up and run separately.
 Prerequisites
@@ -8,7 +8,7 @@ Before setting up the application, ensure you have the following installed:
     Node.js (includes npm)
     MongoDB (or access to a MongoDB instance)
 
-## Getting Started
+### Getting Started
 ## Frontend Setup
 # Navigate to the frontend directory:
     cd frontend
